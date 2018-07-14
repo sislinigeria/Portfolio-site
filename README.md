@@ -6,5 +6,7 @@ My Logo is not centering in mobile screen and i want it to. I will appreciate fe
 Please make sure you go through the code before suggesting soloutions.
 Thank you.
 
+*I noticed my featured images are not showing on GitHub but they are showing in my ZIP file, but because i have already submitted this project, i can't resend the project. 
+
 # Published Link
 https://sislinigeria.github.io/sixtus.portfolio/
