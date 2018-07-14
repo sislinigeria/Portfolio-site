@@ -169,7 +169,7 @@ body, html, footer, {
       Trying to see if i can center the logo.
       I will like to get feedback on why it didn't work
       */
-      .logos {
+      .header_inner img {
         align-content: center;
         float: none;
       }
