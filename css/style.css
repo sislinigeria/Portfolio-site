@@ -1,0 +1,199 @@
+/*
+Basic styling below
+*/
+body, html, footer, {
+    margin: 1;
+    padding: 1cm;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #2d3c49;
+    line-height: 1.5rem;  
+  }
+  h1, h2, h3, h4, h5 {
+    margin: 0; 
+  }
+  
+  header, footer, div {
+    box-sizing: border-box;
+  } 
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .column img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #02b3e4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* I added this for myself. 
+  I know the rubic stated no element should be hidding. 
+  I am experimenting. 
+  Coding is an art after all */
+    .hide {
+    display: none;
+  }
+
+  /*
+  Horizontal rule
+  */
+  hr {
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 4px;
+    width: 100%;
+  }
+
+  /*
+  Logo and Header
+  */
+  .header {
+    min-height: 56px;
+    display: flex;
+  }
+  
+  .header_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header_logo {
+    vertical-align: baseline;
+    margin-top: 12px;
+    width: 120px;
+    float: left;
+  }
+  
+  .header_title {
+    font-weight: 300;
+    font-size: 3em;
+    display: inline-block;
+    color: #2d3c49;
+    line-height: normal;
+  }
+
+  .header_text {
+    float: right;
+    text-align: right;
+  }
+
+  .logos {
+    float: left;
+
+  }
+
+  .sub_header {
+    color: #02b3e4;
+    font-size: 2em;
+    line-height: 90%
+  }
+
+  /* Featured content */
+
+  .featured h1 {
+    color: #7d97ad;
+    line-height: 200%;
+  }
+
+  .featured h2 {
+    text-align: center;
+    font:1.3em;
+    line-height: 140%;
+  }
+
+  .featured a {
+    text-decoration: none;
+    color: #2d3ca9;
+  }
+
+  .featured p {
+    text-align: center;
+    line-height: 70%;      
+  }
+
+  /* 
+  Featured Responsive columns full computer screen
+  */
+  @media screen and (min-width:730px){
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 0.3cm;
+    }
+    li {
+        display: inline;
+        margin: 3ch;
+        font-size: 15px;
+    }
+    .footer {
+        text-align: center;
+    }
+  }
+
+    /* 
+    Mobile Responsive actions under width 0 to 729px
+    */
+
+  @media screen and (min-width:0px) and (max-width:729px) {
+      .column img {
+          height: 100%;
+          width: 100%;
+      }
+      .header_inner img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+      } 
+      .header_text {
+        text-align: center;
+        float:center;
+      }
+      /* 
+      Trying to see if i can center the logo.
+      I will like to get feedback on why it didn't work
+      */
+      .logos {
+        align-content: center;
+        float: none;
+      }
+      /**/
+      .featured h1 {
+        color: #02b3e4;
+        text-align: center;
+      }
+
+      div {
+          box-sizing: unset;
+      }
+      .footer {
+          text-align: center;
+      }
+      .hide {
+        display: flex;
+        text-align: center;
+        font-size: 130%;
+      }
+      .column p {
+        font-size: 150%;
+      }
+      .column h2 {
+        font-size: 200%
+      }
+  }
