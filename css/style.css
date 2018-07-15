@@ -170,8 +170,10 @@ body, html, footer, {
       I will like to get feedback on why it didn't work
       */
       .logos {
-        align-content: center;
-        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
       }
       /**/
       .featured h1 {
